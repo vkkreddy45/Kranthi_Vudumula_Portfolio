@@ -1,6 +1,5 @@
 import java from "../assets/img/java.png";
 import python from "../assets/img/python.jpg";
-import C from "../assets/img/C.jpg";
 import MySQL from "../assets/img/MySql.png";
 import Oracle from "../assets/img/Oracle.png";
 import AWS from "../assets/img/AWS.jpg";
@@ -48,6 +47,12 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>With a comprehensive command over front-end and back-end technologies,<br></br> I'm a Full Stack Developer adept at crafting robust, scalable solutions,<br></br> enhancing user interactions through innovative design and seamless functionality.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <div className="item">
+                            <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener noreferrer">
+                                <img src={python} alt="Image" />
+                                </a>
+                                <h5>Python</h5>
+                            </div>
                             <div className="item">
                             <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer">
                                 <img src={java} alt="Image" className="hoverable_image" />
@@ -55,21 +60,11 @@ export const Skills = () => {
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                            <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener noreferrer">
-                                <img src={python} alt="Image" />
-                                </a>
-                                <h5>Python</h5>
-                            </div>
-                            <div className="item">
                             <a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer">
                                 <img src={MySQL} alt="Image" />
                                 </a>
                                 <h5>MySQL</h5>
                            </div>
-                            <div className="item">
-                                <img src={C} alt="Image" />
-                                <h5>C</h5>
-                            </div>
                             <div className="item">
                                 <img src={Oracle} alt="Image" />
                                 <h5>Oracle</h5>

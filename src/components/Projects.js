@@ -64,7 +64,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">SpringBoot</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Django</Nav.Link>
+                      <Nav.Link eventKey="third">Networking</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -83,17 +83,17 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <h1>SPRING BOOT-Insurance Management System</h1>
-                      <p>As a junior software developer, I leveraged my skills in Spring Boot to design and develop a user-friendly and robust Football Leaderboard Application. This project allowed me to further explore my proficiency in the Spring Boot framework and enhance my understanding of its functionalities. I took responsibility for key aspects of the project, demonstrating not only technical acumen but also problem-solving abilities and an understanding of user experience principles.</p>
+                      <h1>Insurance Management System</h1>
+                      <p>As a developer, I leveraged my skills in Spring Boot to develop a robust Insurance Management System. This project allowed me to further explore my proficiency in the Spring Boot framework and enhance my understanding of its functionalities. I took responsibility for key aspects of the project, demonstrating not only technical acumen but also problem-solving abilities and an understanding of user experience principles.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <h1>GATOR HOME QUEST</h1>
-                      <Container className="d-flex justify-content-center">
-                <a href="https://gatorshomequest.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <Button variant="primary">Check Out Website</Button>
+                      <h1>Client Server Project</h1>
+            <Container className="d-flex justify-content-center">
+                <a href="https://github.com/vkkreddy45/Client-Server-Project" target="_blank" rel="noopener noreferrer">
+                    <Button variant="primary">Check Out Github</Button>
                 </a>
             </Container>
-                      <p>As part of Human Computer Interaction project we designed the website using technology #Django to provide ease to newbies in the city of Gainesville find and explore all the better places to live. It helps to identify all the quantifiers which user would look for like costs, maintainance, and amenities. Provided with wishlist helps the user to maintain record of all the houses they desired to live in. </p>
+                      <p>As part of Data Networks project I developed a client server communication using Python, floodlight controller and mininet. Using these I was able to maintain efficient communication between client and server. I was able to enhance my understanding on how packets transfer from client to server after successful connection.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
