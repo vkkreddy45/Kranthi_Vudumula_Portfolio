@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kranthi_Vudumula_Portfolio/static/css/main.d5935ead.css",
-    "main.js": "/Kranthi_Vudumula_Portfolio/static/js/main.e68f9ac2.js",
+    "main.js": "/Kranthi_Vudumula_Portfolio/static/js/main.1c772597.js",
     "static/js/787.fb771931.chunk.js": "/Kranthi_Vudumula_Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/project-image3.png": "/Kranthi_Vudumula_Portfolio/static/media/project-image3.da93baf329deee16f337.png",
     "static/media/project-image2.png": "/Kranthi_Vudumula_Portfolio/static/media/project-image2.c8d4099259db90213c56.png",
@@ -24,11 +24,11 @@
     "index.html": "/Kranthi_Vudumula_Portfolio/index.html",
     "static/media/nav-icon1.svg": "/Kranthi_Vudumula_Portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "main.d5935ead.css.map": "/Kranthi_Vudumula_Portfolio/static/css/main.d5935ead.css.map",
-    "main.e68f9ac2.js.map": "/Kranthi_Vudumula_Portfolio/static/js/main.e68f9ac2.js.map",
+    "main.1c772597.js.map": "/Kranthi_Vudumula_Portfolio/static/js/main.1c772597.js.map",
     "787.fb771931.chunk.js.map": "/Kranthi_Vudumula_Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5935ead.css",
-    "static/js/main.e68f9ac2.js"
+    "static/js/main.1c772597.js"
   ]
 }
