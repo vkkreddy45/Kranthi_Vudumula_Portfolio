@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Full Stack Developer","Web Developer","Backend Developer"];
+  const toRotate = ["Full Stack Developer", "Software Developer"];
   const period = 50;
 
   useEffect(() => {
@@ -66,7 +66,7 @@ export const Banner = () => {
                   </h1>
                 </div>
                   <p>Passionate Computer Scientist and Tech Enthusiast with expertise in software, Web Technologies and AI. Full Stack Developer experienced in creating innovative solutions that bridge user needs and technology advancements. Deep understanding of programming languages, frameworks, and tools. Committed to staying up-to-date with the latest trends. Aspiring leader driving tech-driven solutions and fostering collaborative environments. Strong foundation in computer science and a passion for problem-solving. Let's connect and shape the future together through technology-driven innovation.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="#connect" style={{ textDecoration: 'none' }}><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
